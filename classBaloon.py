@@ -8,7 +8,7 @@ class Baloon(pygame.sprite.Sprite):
         self.image = choice(listimage)
         self.rect = self.image.get_rect()
         self.rect.x = randint(0, 1720)
-        self.rect.y = randint(980, 1280)
+        self.rect.y = randint(900, 1280)
         self.speed = speed
 
 
